@@ -856,7 +856,7 @@ function library.new(gameName)
 					create("UIGridLayout", { Name = "uigrid", CellPadding = UDim2.new(0, 5, 0, 5), CellSize = UDim2.new(0, 255, 0, 0), FillDirectionMaxCells = 2, SortOrder = Enum.SortOrder.LayoutOrder })
 				}),
 				create("Frame", { Name = "top", BackgroundColor3 = "theme.topBackground", Size = UDim2.new(1, 0, 0, 34), ZIndex = 2 }, {
-					create("TextLabel", { Name = "title", BackgroundTransparency = 1, Font = Enum.Font.GothamSemibold, Position = UDim2.new(0, 34, 0, 0), Size = UDim2.new(1, -68, 1, 0), Text = "EvoV2 | " .. gameName, TextColor3 = "theme.textForeground", TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left }),
+					create("TextLabel", { Name = "title", BackgroundTransparency = 1, Font = Enum.Font.GothamSemibold, Position = UDim2.new(0, 34, 0, 0), Size = UDim2.new(1, -68, 1, 0), Text = "DevHub | " .. gameName, TextColor3 = "theme.textForeground", TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left }),
 					create("Frame", { Name = "home", BackgroundColor3 = "theme.topBackground", Position = UDim2.new(0, 5, 0, 5), Size = UDim2.new(0, 24, 0, 24) }, {
 						create("ImageLabel", { Name = "icon", BackgroundTransparency = 1, Image = "rbxassetid://7804268020", ImageColor3 = "theme.imageForeground", Size = UDim2.new(1, 0, 1, 0) })
 					}, UDim.new(0, 4)),
@@ -866,7 +866,7 @@ function library.new(gameName)
 					create("Frame", { Name = "underline", AnchorPoint = Vector2.new(0, 1), BackgroundColor3 = "theme.topBackground", BorderSizePixel = 0, Position = UDim2.new(0, 0, 1, 0), Size = UDim2.new(1, 0, 0, 2) })
 				}, UDim.new(0, 4)),
 				create("TextLabel", { Name = "tab", AnchorPoint =  Vector2.new(0.5, 1), BackgroundTransparency = 1, Font = Enum.Font.GothamSemibold, Position = UDim2.new(0.5, 0, 1, 0), Size = UDim2.new(1, -16, 0, 26), Text = "Home", TextColor3 = "theme.textForeground", TextSize = 12, TextXAlignment = Enum.TextXAlignment.Left }),
-				create("TextLabel", { Name = "site", AnchorPoint =  Vector2.new(0.5, 1), BackgroundTransparency = 1, Font = Enum.Font.GothamSemibold, Position = UDim2.new(0.5, 0, 1, 0), Size = UDim2.new(1, -16, 0, 26), Text = "https://projectevo.xyz", TextColor3 = "theme.textForeground", TextSize = 12, TextXAlignment = Enum.TextXAlignment.Right }),
+				create("TextLabel", { Name = "site", AnchorPoint =  Vector2.new(0.5, 1), BackgroundTransparency = 1, Font = Enum.Font.GothamSemibold, Position = UDim2.new(0.5, 0, 1, 0), Size = UDim2.new(1, -16, 0, 26), Text = "http://devhubs.xyz", TextColor3 = "theme.textForeground", TextSize = 12, TextXAlignment = Enum.TextXAlignment.Right }),
 				create("Folder", { Name = "container" })
 			}, UDim.new(0, 4)),
 			create("Folder", { Name = "notifs" })
